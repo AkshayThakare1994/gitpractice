@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 	public static void main(String[] args) {
 		ApplicationContext apc=new ClassPathXmlApplicationContext("bean.xml");
+system.out.println("hello"); 
 		
 	}
 
